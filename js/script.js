@@ -15,3 +15,6 @@
 // Se l'utente è over 65 andrà applicato uno sconto del 40%
 //
 // Se gli utenti hanno una età compresa tra i 18 anni e i 64 anni andrà applicata la tariffa normale
+
+var etaUtente = parseInt(prompt('Benvenuto nel servizio di erogazione ticket. Per iniziare, avremmo bisogno di conoscere la tua età'))
+console.log(etaUtente);
