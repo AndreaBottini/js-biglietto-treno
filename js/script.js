@@ -24,3 +24,9 @@ console.log(chilometriUtente);
 
 var calcoloViaggio = chilometriUtente * 0.21;
 console.log(calcoloViaggio);
+
+var calcoloViaggio20 = (Math.round (chilometriUtente * 0.21) / 100) * 20;
+console.log(calcoloViaggio20);
+
+var calcoloViaggio40 = (Math.round (chilometriUtente * 0.21) / 100) * 40;
+console.log(calcoloViaggio40);
