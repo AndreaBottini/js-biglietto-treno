@@ -21,3 +21,6 @@ console.log(etaUtente);
 
 var chilometriUtente = parseInt(prompt('Dove vorresti andare? Avremmo bisogno di sapere il numero di chilometri che vuoi percorrere'));
 console.log(chilometriUtente);
+
+var calcoloViaggio = chilometriUtente * 0.21;
+console.log(calcoloViaggio);
