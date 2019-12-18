@@ -16,5 +16,8 @@
 //
 // Se gli utenti hanno una età compresa tra i 18 anni e i 64 anni andrà applicata la tariffa normale
 
-var etaUtente = parseInt(prompt('Benvenuto nel servizio di erogazione ticket. Per iniziare, avremmo bisogno di conoscere la tua età'))
+var etaUtente = parseInt(prompt('Benvenuto nel servizio di erogazione ticket. Per iniziare, avremmo bisogno di conoscere la tua età'));
 console.log(etaUtente);
+
+var chilometriUtente = parseInt(prompt('Dove vorresti andare? Avremmo bisogno di sapere il numero di chilometri che vuoi percorrere'));
+console.log(chilometriUtente);
